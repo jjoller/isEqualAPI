@@ -1,3 +1,7 @@
 bin/
 models/
+classes/
+mavenlib/
+.idea/
+nlpFramework.iml
 

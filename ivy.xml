@@ -8,13 +8,25 @@
 	<dependency org="edu.mit" name="jwi" rev="2.2.3"/>
 	<dependency org="edu.stanford.nlp" name="stanford-corenlp" rev="3.6.0"/>
 	<dependency org="commons-codec" name="commons-codec" rev="1.10"/>
+	 <!--
 	<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.5.2"/>
 	<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.4.4"/>
 	<dependency org="commons-logging" name="commons-logging" rev="1.2"/>
+	-->
 	<dependency org="org.mapdb" name="mapdb" rev="3.0.2"/>
 	<dependency org="org.eclipse.jetty" name="jetty-server" rev="9.4.0.M1"/>
 	<dependency org="org.eclipse.jetty" name="jetty-servlet" rev="9.4.0.M1"/>
+
+	 <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+	 <dependency org="com.google.inject" name="guice" rev="4.1.0"/>
+
+	 <!-- https://mvnrepository.com/artifact/com.google.inject.extensions/guice-servlet -->
+	 <dependency org="com.google.inject.extensions" name="guice-servlet" rev="4.1.0">
+		 <exclude module="servlet-api"/>
+	 </dependency>
+
+	 <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+	 <dependency org="com.google.code.gson" name="gson" rev="2.8.0"/>
  </dependencies>
- 
 </ivy-module>
 
